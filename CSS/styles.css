@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul {
@@ -14,6 +15,10 @@ body {
     background-position-x: 55;
 }
 
+body * {
+    font-family: "Roboto", sans-serif;
+}
+
 .navbar {
     margin-top: 52px;
     margin-bottom: 62px;
@@ -25,10 +30,20 @@ body {
 
 #container {
     width: fit-content;
-    margin: 52px 43px;
+    margin: 52px auto;
 }
 
-.cardDay {}
+.gameTable {
+    padding: 32px 23px;
+    text-align: center;
+    background: #1d1c19;
+    border-bottom: 2px solid #f7dd43;
+    border-radius: 6px;
+}
+
+.cardDay {
+    display: flex;
+}
 
 .card {
     border: 1px solid red;
