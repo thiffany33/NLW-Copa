@@ -19,7 +19,7 @@ function createCard(date, day, games) {
     `
 }
 
-document.querySelector("#app").innerHTML = `
+document.querySelector("#container").innerHTML = `
   <header>
     <img src="./assets/logo.svg" alt="Logo da NLW" />
   </header>
