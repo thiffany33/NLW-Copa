@@ -7,3 +7,15 @@ function createGame(player1, hour, player2) {
     </li>
     `
 }
+
+function createCard(data, day, games) {
+    return `
+    <div class="card">
+        <h2>${data} <span>${day}</span></h2>
+        <ul>
+        ${games}
+        </ul>
+        </div>
+    
+    `
+}
