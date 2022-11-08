@@ -43,4 +43,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Thiffany durante o evento NLW Copa da Rocketseat
+Feito por Thiffany durante o evento NLW Copa da Rocketseat
